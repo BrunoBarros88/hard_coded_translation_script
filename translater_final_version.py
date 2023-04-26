@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from mtranslate import translate
 
 #Pass the folder path where the HTML you want to translate are placed
-folder_path = r'C:\exemple\example\example'
+folder_path = r'C:\example\example\example'
 #Place the data-translate="false" attribute on the HTML elements you dont want to be translated
 global_exclude = 'data-translate="false"'
 # Looping over all HTML files in the folder, getting the elements to be translated, and skipping images and other global_exclude elements
